@@ -414,7 +414,7 @@ textarea.input {
 #top-header {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #1E1F29;
+  background-color: #15161D;
 }
 
 .header-links li {
@@ -673,9 +673,9 @@ textarea.input {
 
   .header-ctn .menu-toggle {
     display: inline-block;
-    position: fixed;
-    top: 5px;
-    right: -23px;
+    position: absolute;
+    right: -15px;
+    top: -160px;
   }
   #responsive-nav {
     position: fixed;
@@ -2175,6 +2175,7 @@ textarea.input {
     margin-bottom: 30px;
   }
 }
+
 
 @media only screen and (max-width: 767px) {
   .section-title .section-nav {
